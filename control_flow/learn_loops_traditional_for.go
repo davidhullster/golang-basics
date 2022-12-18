@@ -20,7 +20,7 @@ func main() {
 	} else if a == 5 {  // we only get here if a is not even
 			break           // end for loop
 	}
-  // prints only 1 and 3, since 2, 4, 6, 8 are even
+  // runs and prints only 1 and 3, since 2, 4, 6, 8 are even
 	// 1 is evaluated before the 'break', then the 5, which then runs break
 	fmt.Println("We're counting (a)", a)
 	a++
